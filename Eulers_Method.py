@@ -3,7 +3,8 @@ from sympy.abc import x,y
 
 f = 2*x-y
 
-y_arr = [-1]
+y0 = -1
+y_arr = [y0]
 
 n = 10
 h = 1/n
