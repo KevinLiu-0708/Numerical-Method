@@ -1,11 +1,9 @@
 import numpy as np
 from sympy.abc import x,y
-from sympy import sin
 
-f = -3*y*sin(x)
+f = 2*x-y
 
 y_arr = [-1]
-
 
 n = 10
 h = 1/n
